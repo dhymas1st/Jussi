@@ -1,0 +1,194 @@
+.Navbar {
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+
+    .leftSide {
+        flex: 50%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+        .logojussi {
+            margin-left: 24px;
+            width: 184px;
+            height: 40px;
+        }
+
+        button {
+            display: none;
+            margin-left: 20px;
+            outline: none;
+            border: none;
+            background: none;
+            width: 30px;
+            height: auto;
+
+            @media only screen and (max-width: 768px) {
+                display: flex;
+            }
+        }
+
+        #hidden {
+            display: flex;
+            @media only screen and (max-width: 768px) {
+                display: flex;
+                position: absolute;
+                left: 0px;
+                top: 80px;
+                max-height: 230px;
+                width: 100%;
+                background-color: #f2f2f2;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+             
+            }
+
+            a {
+                @media only screen and (max-width: 768px) {
+                  margin: 10px;
+                  font-size: 20px;
+                 
+                }
+            }
+        }
+    }
+    .links {
+        max-height: 80px;
+
+        a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            line-height: 24px;
+            margin-left: 30px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .rightSide {
+        flex: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 25px;
+
+        .search-box {
+            position: relative;
+            background: #fff;
+            height: 20px;
+            border-radius: 24px;
+            padding: 10px;
+            border: 1px solid #f2f2f2;
+
+            @media only screen and (max-width: 768px) {
+            }
+        }
+
+        .search-btn {
+            color: #000;
+            float: right;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            background: none;
+            cursor: pointer;
+
+            @media only screen and (max-width: 768px) {
+            }
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+
+            #clearBtn {
+                cursor: pointer;
+            }
+        }
+
+        .search-txt {
+            outline: none;
+            float: left;
+            padding-left: 10px;
+            box-sizing: border-box;
+            color: #000;
+            font-size: 16px;
+            transition: 0.4s;
+            line-height: 20px;
+            width: 200px;
+            border: none;
+
+            @media only screen and (max-width: 768px) {
+                width: 100px;
+            }
+        }
+
+        .dataResult {
+            position: absolute;
+            top: 58px;
+            z-index: 1000;
+            margin-top: 5px;
+            width: 250px;
+            height: 200px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            overflow: hidden;
+            overflow-y: auto;
+
+            .dataItem {
+                width: 100%;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                color: black;
+
+                p {
+                    margin-left: 15px;
+                }
+            }
+        }
+
+        .dataResult::-webkit-scrollbar {
+            display: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: lightgrey;
+        }
+
+        .login {
+            margin: 0 33px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            @media only screen and (max-width: 768px) {
+                margin: 0 15px;
+            }
+
+            
+        }
+        .cart {
+            margin-right: 20px;
+
+            @media only screen and (max-width: 768px) {
+                margin-right: 0px;
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+[
+    {
+      "id": "01",
+      "name": "Nome do Produto #1",
+      "description": "Descrição do produto #1",
+      "feature1": "Feature 1",
+      "feature2": "Feature 2",
+      "feature3": "Feature 3",
+      "solution": "Ver solução",
+      "image": "/static/image/image-p1.png"
+    },
+    {
+      "id": "02",
+      "name": "Nome do Produto #2",
+      "description": "Descrição do produto #2",
+      "feature1": "Feature 1",
+      "feature2": "Feature 2",
+      "feature3": "Feature 3",
+      "solution": "Ver solução",
+      "image": "/static/image/image-p2.png"
+    },
+    
+    { 
+      "id": "03",
+      "name": "Nome do Produto #3",
+      "description": "Descrição do produto #3",
+      "feature1": "Feature 1",
+      "feature2": "Feature 2",
+      "feature3": "Feature 3",
+      "solution": "Ver solução",
+      "image": "/static/image/image-p3.png"
+    },
+    {
+      "id": "04",
+      "name": "Nome do Produto #4",
+      "description": "Descrição do produto #4",
+      "feature1": "Feature 1",
+      "feature2": "Feature 2",
+      "feature3": "Feature 3",
+      "solution": "Ver solução",
+      "image": "/static/image/image-p4.png"
+    }
+     
+  ]

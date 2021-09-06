@@ -1,0 +1,90 @@
+.solutions {
+    padding: 56px 0;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        max-width: 1024px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+        .item {
+            background-color: #fff;
+            padding: 16px;
+            border: 1px solid #f2f2f2;
+            width: 241px;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin: 10px;
+            @media only screen and (max-width: 768px) {
+                width: 100%;
+            }
+            @media only screen and (max-width: 1024px) {
+                margin-right: 0px;
+            }
+
+            .info {
+                margin-top: 45px;
+
+                .btn-solutions {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    border-radius: 6px;
+                    border: none;
+                    color: #000000;
+                    background: #03ffa5;
+                    padding: 12px 0;
+                    width: 100%;
+                    text-align: center;
+                }
+        
+                .btn-solutions:hover {
+                    color: #03ffa5;
+                    background-color: #000;
+                }
+
+                h3 {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #000000;
+                    padding-bottom: 16px;
+                }
+                p {
+                    font-family: Barlow;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 18px;
+                    letter-spacing: 0em;
+                    color: #ee0e7d;
+                }
+
+                ul {
+                    margin: 16px 0;
+                    list-style: inside;
+                    padding: 0;
+
+                    li {
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #5b5b5b;
+                    }
+                }
+                
+            }
+            
+            
+            
+            
+        }
+        .item:last-child {
+            margin-right: 0px;
+        }
+        .item:first-of-type {
+            margin-left: 0;
+        }
+    }
+}

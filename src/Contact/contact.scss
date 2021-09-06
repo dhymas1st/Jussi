@@ -1,0 +1,47 @@
+//colors
+$pinkJussi: #ee0e7d;
+$white: #ffffff;
+
+.contact {
+    background-color: $pinkJussi;
+    padding: 136px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 768px) {
+        padding: 136px 20px;
+    }
+
+    .container {
+        max-width: 676px;
+        display: flex;
+        flex-flow: column;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin: 0 0 32px;
+    }
+    p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 0;
+    }
+    a {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
